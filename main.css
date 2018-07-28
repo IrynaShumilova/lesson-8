@@ -1,0 +1,22 @@
+#gradient{
+    background: -webkit-repeating-linear-gradient(top left, white, white 25px, darkgray  25px, darkgray  50px);
+    background: -moz-repeating-linear-gradient(top left, white, white 25px, darkgray 25px, darkgray  50px);
+    background: -ms-repeating-linear-gradient(top left, white, white 25px, darkgray 25px, darkgray  50px);
+    background: repeating-linear-gradient(top left, white, white 25px, darkgray 25px, darkgray  50px);
+    text-align: center;
+    border: 2px solid white;
+    width: 450px;
+    height: 200px;
+}
+button{
+    margin-top: 75px;
+    height:  40px;
+    width: 130px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+button:hover{
+    background: green;
+}
